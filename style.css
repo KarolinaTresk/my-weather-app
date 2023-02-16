@@ -1,0 +1,61 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #e0ebeb;
+}
+
+h2,
+ul {
+  font-weight: 500;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  font-size: 26px;
+  font-weight: 400;
+}
+.text-field {
+  border-radius: 3px;
+}
+
+.container {
+  background-color: #a7bcb9;
+  margin: 100px auto;
+  border-radius: 20px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #24527a;
+  font-weight: 600;
+}
+
+.icons:hover {
+  font-size: 36px;
+  color: #24527a;
+}
+
+.small-temp-bottom-1 {
+  font-size: 20px;
+}
+
+.row {
+  margin: 50px 0;
+}
+
