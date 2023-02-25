@@ -23,8 +23,13 @@ p {
 
 ul {
   list-style: none;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
+  
+}
+
+li:first-letter {
+  text-transform: capitalize;
 }
 .text-field {
   border-radius: 3px;

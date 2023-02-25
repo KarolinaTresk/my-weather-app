@@ -27,93 +27,104 @@
 
   <body>
     <div class="container text-center border">
-      <form id="search-form">
-        <input
-          class="text-field"
-          type="text"
-          placeholder="Search a city..."
-          id="text-input"
-        />
+      <div class="weather-app-wrapper">
+        <form id="search-form">
+          <input
+            class="text-field"
+            type="text"
+            placeholder="Search a city..."
+            id="text-input"
+          />
 
-        <input class="go-button" type="submit" value="Search" />
-      </form>
-      <br />
+          <input class="go-button" type="submit" value="Search" />
+        </form>
+        <br />
 
-      <div class="row">
-        <div class="col">
-          <h1>Amsterdam</h1>
-          <h2>Sunday 14:31</h2>
+        <div class="row">
+          <div class="col">
+            <h1>Amsterdam</h1>
+            <h2>Sunday 14:31</h2>
+
+            <div class="col">
+              <ul>
+                <li>
+                  <span class="tempNow" id="temperature"> 11 </span>
+                  <span class="units">
+                    <a href="#" id="celzius-link">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a>
+                  </span>
+                </li>
+                <li>
+                  <i class="fa-sharp fa-solid fa-cloud icons"></i>
+                  <br />
+                </li>
+                <li id="description">
+                  Cloudy
+                </li>
+                <li >
+                 Wind:  <span id="wind">20</span> km/H
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-cols-5">
+          <div class="col">
+            <p>
+              Mon
+              <br />
+              <i class="fa-sharp fa-solid fa-cloud icons"></i>
+            </p>
+            <div class="small-temp-bottom-1">7°C</div>
+          </div>
 
           <div class="col">
-            <ul>
-              <li>
-                <span class="tempNow" id="temperature">
-                  11
-                </span>
-                <span class="units">
-                  <a href="#" id="celzius-link">°C</a> |
-                  <a href="#" id="fahrenheit-link">°F</a>
-                </span>
-              </li>
-              <li>
-                <i class="fa-sharp fa-solid fa-cloud icons"></i>
-                <br />
-                Cloudy
-              </li>
-            </ul>
+            <p>
+              Tue
+              <br />
+              <i class="fa-solid fa-sun icons"></i>
+            </p>
+            <div class="small-temp-bottom-1">4°C</div>
+          </div>
+
+          <div class="col">
+            <p>
+              Wed
+              <br />
+              <i class="fa-sharp fa-solid fa-wind icons"></i>
+            </p>
+            <div class="small-temp-bottom-1">4°C</div>
+          </div>
+
+          <div class="col">
+            <p>
+              Thu
+              <br />
+              <i class="fa-sharp fa-solid fa-cloud icons"></i>
+            </p>
+            <div class="small-temp-bottom-1">4°C</div>
+          </div>
+
+          <div class="col">
+            <p>
+              Fri
+              <br />
+              <i class="fa-solid fa-sun icons"></i>
+            </p>
+            <div class="small-temp-bottom-1">6°C</div>
           </div>
         </div>
       </div>
-
-      <div class="row row-cols-5">
-        <div class="col">
-          <p>
-            Mon
-            <br />
-            <i class="fa-sharp fa-solid fa-cloud icons"></i>
-          </p>
-          <div class="small-temp-bottom-1">7°C</div>
-        </div>
-
-        <div class="col">
-          <p>
-            Tue
-            <br />
-            <i class="fa-solid fa-sun icons"></i>
-          </p>
-          <div class="small-temp-bottom-1">4°C</div>
-        </div>
-
-        <div class="col">
-          <p>
-            Wed
-            <br />
-            <i class="fa-sharp fa-solid fa-wind icons"></i>
-          </p>
-          <div class="small-temp-bottom-1">4°C</div>
-        </div>
-
-        <div class="col">
-          <p>
-            Thu
-            <br />
-            <i class="fa-sharp fa-solid fa-cloud icons"></i>
-          </p>
-          <div class="small-temp-bottom-1">4°C</div>
-        </div>
-
-        <div class="col">
-          <p>
-            Fri
-            <br />
-            <i class="fa-solid fa-sun icons"></i>
-          </p>
-          <div class="small-temp-bottom-1">6°C</div>
-        </div>
-      </div>
-         <a href="https://github.com/KarolinaTresk/my-weather-project" 
-         target="_blank"> Open-source code</a>, by Karolina Tresk 
+      <script src="script.js"></script>
+      <small>
+        <a
+        href="https://github.com/KarolinaTresk/my-weather-project"
+        target="_blank"
+        >
+        Open-source code</a
+        >, by Karolina Tresk
+      </small>
     </div>
-    <script src="script.js"></script>
-  </body>
-</html>
+    </body>
+    </html>

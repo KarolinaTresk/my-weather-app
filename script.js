@@ -50,12 +50,18 @@ let tempFahrenheit = document.querySelector("#fahrenheit-link");
 tempFahrenheit.addEventListener("click", unitFahrenheit);
 
 function showTemperature(response) {
-  console.log(response);
   let temperature = Math.round(response.data.main.temp);
   let currentTemp = document.querySelector("#temperature");
   let city = document.querySelector("h1");
   city.innerHTML = response.data.name;
   currentTemp.innerHTML = temperature;
+  let windSpeed = document.querySelector("#wind");
+  windSpeed.innerHTML = Math.round(response.data.wind.speed * 3.6);
+  let descriptionWeather = document.querySelector ("#description");
+  descriptionWeather.innerHTML = response.data.weather[0].description;
+  console.log(response.data.weather[0].description);
+
+  
 }
 
 function searchCity(city) {
@@ -64,3 +70,5 @@ function searchCity(city) {
                ${city}&units=metric&appid=${apiKey}`;
   axios.get(apiUrl).then(showTemperature);
 }
+
+searchCity("Amsterdam");
