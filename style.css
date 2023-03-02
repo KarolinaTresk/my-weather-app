@@ -17,15 +17,10 @@ h2 {
   font-size: 28px;
 }
 
-p {
-  font-size: 20px;
-}
-
 ul {
   list-style: none;
   font-size: 24px;
   font-weight: 400;
-  
 }
 
 li:first-letter {
@@ -43,21 +38,6 @@ li:first-letter {
 
 form {
   margin-top: 50px;
-}
-
-a {
-  text-decoration: none;
-  color: #24527a;
-  font-weight: 600;
-}
-
-.icons:hover {
-  font-size: 36px;
-  color: #24527a;
-}
-
-.small-temp-bottom-1 {
-  font-size: 20px;
 }
 
 .row {
