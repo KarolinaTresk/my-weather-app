@@ -1,6 +1,5 @@
 body {
   font-family: "Red Hat Display", sans-serif;
-  background-color: #a7bcb9;
   background-image: url("blue.jpg");
 }
 
@@ -33,7 +32,7 @@ li:first-letter {
 }
 
 .container {
-  background-color: #e0ebeb; 
+  background-image: url("clouds.jpg");
   margin: 100px auto;
   border-radius: 20px;
 }
